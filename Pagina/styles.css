@@ -38,7 +38,6 @@ header {
     margin: 0 1.4rem;
 }
 
-
 .chamada {
     width: 100%;
     color: var(--cor-primaria-branco);
@@ -244,6 +243,7 @@ footer {
     flex-direction: space-around;
     margin: 1.5rem 0;
     gap: 1rem;
+    list-style: none;
 }
 
 .linkFooter {
@@ -266,4 +266,100 @@ footer {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
+}
+
+@media  screen and (max-width: 768px) {
+    header {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .containerPrincipal {
+        width: 80vw;
+        margin: 0;
+        padding: 2rem 0;
+    }
+
+    .chamada {
+        font-size: 1.5rem;
+    }
+
+    .bannerPrincipal {
+        width: 40vw;
+        margin-bottom: 1.5rem;
+    }
+
+    .containerBotoes {
+        width: 80vw;
+    }
+
+    .sectionVantagens {
+        gap: 8vw;
+    }
+
+    .primeiraImagem {
+        width: 60vw;
+        margin: 0;
+    }
+
+    .containerVantagem {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .containerVantagem div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .descricaoVantagem {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .textoVantagemAEsquerda {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .botaoAssine {
+        margin: 2vw 0 6vw 0;
+    }
+
+    .segundaImagem {
+        width: 60vw;
+        margin: 0;
+    }
+
+    .terceiraImagem {
+        width: 60vw;
+        margin: 0;
+    }
+
+    .listaDeDispostivos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    footer {
+        text-align: center;
+        align-self: center;
+        padding: 3vw;
+    }
+
+    .navLinksFooter ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
 }
