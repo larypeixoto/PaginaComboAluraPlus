@@ -3,6 +3,8 @@
 Projeto desenvolvido durante o curso **HTML e CSS: Praticando HTML/CSS**, da plataforma **Alura**.  
 O objetivo foi recriar a interface proposta no Figma, praticando estruturação semântica, organização visual e estilização com CSS.
 
+
+
 ---
 
 ## 🎨 Figma do projeto
@@ -10,6 +12,11 @@ O layout está disponível em:
 
 🔗 **https://www.figma.com/design/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?node-id=1-77&t=3K2CtEzoWHYia8EH-0**
 
+---
+
+## ✔️ Resultado do projeto
+
+🔗 **https://larypeixoto.github.io/PaginaComboAluraPlus/Pagina/**
 ---
 
 ## 🚀 Tecnologias utilizadas
@@ -28,7 +35,8 @@ O layout está disponível em:
 - Montagem de componentes da página com HTML  
 - Aplicação de estilos com CSS  
 - Uso de Flexbox  
-- Uso de variáveis CSS para cores  
+- Uso de variáveis CSS para cores
+- Uso de pseudo-classes CSS
 - Organização de arquivos e boas práticas básicas
 
 ---
@@ -39,8 +47,6 @@ O layout está disponível em:
 <img width="1345" height="598" alt="image" src="https://github.com/user-attachments/assets/2e79f1d0-8ef6-4a64-b3ec-009b62b56038" />
 <img width="1345" height="599" alt="image" src="https://github.com/user-attachments/assets/5fda5f2c-bce2-4aa9-ab6c-fa67d919c1b0" />
 <img width="1345" height="593" alt="image" src="https://github.com/user-attachments/assets/5d0c8860-9ff1-4abd-b6e4-bdfb541af59f" />
-
-
 
 
 
